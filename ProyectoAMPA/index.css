@@ -1,0 +1,224 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.flex-container{
+    background-color: #5de0e6;
+    display: flex;
+    height: 100;
+    padding: 25px;
+    /* width: 100%; */
+}
+
+.Barra-inicial{
+    padding: 5px 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.Barra-inicial:hover{
+    background: azure;
+    border-radius: 20px;
+}
+
+#correo{
+    position: absolute;
+    top: 33px;
+    left: 35px;
+    width: 18px;
+}
+
+#telefono1  {
+    position: absolute;
+    top: 33px;
+    left: 215px;
+    width: 18px;
+}
+
+#telefono2{
+    position: absolute;
+    top: 33px;
+    left: 415px;
+    width: 18px; 
+}
+
+#container{
+    background: white;
+    padding: 25px;
+}
+
+#logo1{
+    position: absolute;
+    top: 100px;
+    left: 33px;
+    width: 150px; 
+}
+
+.nombre{
+    padding: 1px 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#boton{
+    position: absolute;
+    top: 145px;
+    left: 1000px;
+    text-decoration: none;
+    color: white;
+    background: #5de0e6;
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#boton:hover{
+    background: rgb(135, 233, 233);
+}
+
+
+#contenedor{
+    background-color: #5de0e6;
+    display: flex; 
+    height: 25%;
+    /* padding: 25px; */
+    width: 100%;
+}
+
+#menu-inicio{
+    position: absolute;
+    background: #0270ff93;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.barra-inicio{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    justify-content: space-around;
+    padding: 1px 96.9px;
+}
+
+.barra-inicio:hover{
+    background: rgba(255, 255, 255, 0.452);
+    border-radius: 10px;
+}
+
+#logo2{
+    background: white;
+    position:absolute;
+    width: 100cqmax;
+}
+
+
+.container1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container1 .tarjeta{
+    position: relative;
+    max-width: 300px;
+    height: 215px;
+    background-color: white;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 5);
+    transition: 0.3s ease-in-out;
+}
+.container1 .tarjeta:hover{
+    height: 420px;
+}
+
+.container1 .tarjeta .img-bx{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 5);
+}
+
+.container1 .tarjeta .img-bx .efecto{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container1 .tarjeta .content1{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container1 .tarjeta:hover .content1{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+/* body{
+    background-image: url("WhatsApp Image 2024-07-26 at 8.48.41 PM.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* font-family: sans-serif; */
+/* }
+
+.Barra-Inicio{
+    background: #5e19f3;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+.imgn{
+    width: 100px ;
+}
+
+.Dividor{   
+    width: 100%;  
+}
+.nav-id{
+    display: inline-block;
+    background: rgb(244, 96, 96);
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    border:3px solid rgb(198, 243, 255) ;
+    border-radius: 5px;
+
+}
+
+.nav-id:hover{
+    background: silver;
+} */
+
